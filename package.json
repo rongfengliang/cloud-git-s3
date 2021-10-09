@@ -1,0 +1,29 @@
+{
+  "name": "@dalongrong/cloud-git-s3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "public": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rongfengliang/cloud-git-s3"
+  },
+  "engines": {
+    "node": ">= 14.14"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "p": "yarn publish --access public"
+  },
+  "devDependencies": {
+    "express": "^4.17.1"
+  },
+  "dependencies": {
+    "@fusebit/cloud-git": "^1.0.0",
+    "aws-sdk": "^2.1004.0",
+    "pify": "^5.0.0",
+    "pixl-server-storage": "^3.0.7"
+  }
+}
